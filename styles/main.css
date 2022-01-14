@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@400;500;600;700&display=swap");
 @import url("./normalize.css");
 
 /***********************
@@ -8,6 +8,11 @@
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #e02c6d;
+  --color-white: #fff;
 }
 
 html {
@@ -20,22 +25,55 @@ body {
   line-height: 1.5;
 }
 
+/***********************
+Utilities
+************************/
 h1,
-h2 {
+h2,
+h3 {
   font-family: "Poppins", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: 700;
+  margin: 0;
 }
 
 .section {
   padding: 16px;
 }
 
-
-
-/***********************
-       Utilities
-************************/
 .flex {
   display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.img {
+  width: 100%;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  border: 0;
+  outline: 0;
+  border-radius: 2rem;
+  padding: 0.8rem 2rem;
+  font-weight: 500;
+  vertical-align: middle;
+}
+
+.btn--primary {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* Others */
+.link-arrow {
+  margin-left: 0.3rem;
 }
