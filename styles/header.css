@@ -6,10 +6,6 @@
   justify-content: space-between;
 }
 
-.nav__bars,
-.nav__cart {
-  font-size: 24px;
-}
 
 .nav__brand {
   font-size: 1rem;

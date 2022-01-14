@@ -1,0 +1,20 @@
+.footer {
+  background-color: #0A0826;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.footer .icon {
+  color: #fff;
+  margin:.3rem
+}
+
+.copy-right {
+  margin-top: 0;
+  font-size: .75rem;
+}
+
+.copy-right .divider {
+  display: block;
+  margin: .6rem
+}
