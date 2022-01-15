@@ -19,6 +19,10 @@
   margin-top: 3rem;
 }
 
+.hero__img:hover{
+  animation: heroImg 1s linear 0s 1 normal forwards;
+}
+
 .hero__heading {
   font-size: 1.8rem;
   margin-bottom: 1rem;
@@ -31,6 +35,51 @@
 
 .hero__c2a {
   margin-top: 1.2rem;
+}
+
+.hero__c2a:hover .link-arrow {
+  animation: arrow 1s linear 0s 1 normal forwards;
+}
+
+/* Keyframes */
+
+@keyframes heroImg {
+  0% {
+    transform: rotate(0);
+  }
+  
+  50% {
+    transform: rotate(180deg) scale(2);
+  }
+  
+  100% {
+    transform: rotate(360deg) scale(1);
+
+  }
+}
+
+@keyframes arrow {
+  0% {
+    transform: scale(1) rotate(0) translate(0, 0);
+  }
+  5% {
+    transform: rotate(60deg);
+    color: green;
+  }
+  
+  50% {
+    transform: scale(5) translate(-30px, -30px);
+    color: red;
+  }
+  
+  90% {
+    transform: rotate(60deg);
+    color: blue;
+  }
+
+  100% {
+    transform: scale(1) rotate(0) translate(0, 0);
+  }
 }
 
 @media screen and (min-width: 700px) {
@@ -58,7 +107,5 @@
   }
 }
 
-
 @media screen and (min-width: 700px) {
-  
 }
