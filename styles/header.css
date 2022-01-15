@@ -11,6 +11,10 @@
   font-size: 1rem;
 }
 
+.nav__links {
+  display: none;
+}
+
 /* Hero area */
 .hero {
   flex-direction: column;
@@ -19,7 +23,7 @@
   margin-top: 3rem;
 }
 
-.hero__img:hover{
+.hero__img:hover {
   animation: heroImg 1s linear 0s 1 normal forwards;
 }
 
@@ -47,14 +51,13 @@
   0% {
     transform: rotate(0);
   }
-  
+
   50% {
-    transform: rotate(180deg) scale(2);
+    transform: rotate(180deg) scale(1.2);
   }
-  
+
   100% {
     transform: rotate(360deg) scale(1);
-
   }
 }
 
@@ -66,12 +69,12 @@
     transform: rotate(60deg);
     color: green;
   }
-  
+
   50% {
     transform: scale(5) translate(-30px, -30px);
     color: red;
   }
-  
+
   90% {
     transform: rotate(60deg);
     color: blue;
@@ -86,8 +89,6 @@
   .nav__brand {
     font-size: 1.5rem;
   }
-
-  
 
   /* hero area */
   .hero {
@@ -108,5 +109,14 @@
 @media screen and (min-width: 900px) {
   .nav__icon-container {
     display: none;
+  }
+
+  .nav__links {
+    display: block;
+  }
+
+  .nav__link {
+    margin-left: 1rem;
+    font-weight: 500;
   }
 }

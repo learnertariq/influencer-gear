@@ -1,0 +1,23 @@
+.about__bg-wrapper {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: #1e8fff1f;
+  gap: 1rem;
+}
+
+.about__info {
+  padding: 1rem;
+}
+
+.about__heading {
+  color: #476197;
+  font-size: 1.5rem;
+}
+
+.about__brand {
+  color: #000b;
+}
+
+.about__img {
+  /* border-radius: 50px; */
+}
