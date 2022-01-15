@@ -1,0 +1,29 @@
+.news-letter {
+  text-align: center;
+  max-width: 800px;
+}
+.news-letter__form {
+  vertical-align: middle;
+  margin-top: 1.5rem;
+}
+
+.news-letter__heading {
+  color: #476197;
+  font-size: 1.3rem;
+}
+
+.news-letter .input {
+  margin-bottom: 0.5rem;
+  max-width: 400px;
+}
+
+@media screen and (min-width: 700px) {
+  .news-letter__heading {
+    font-size: 2rem;
+  }
+
+  .news-letter .input {
+    margin-right: 0.5rem;
+    margin-bottom: 0;
+  }
+}

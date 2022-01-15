@@ -49,7 +49,6 @@ h3 {
   padding: 16px;
   max-width: 1100px;
   margin: 5rem auto;
-
 }
 
 .flex {
@@ -73,11 +72,21 @@ h3 {
   padding: 0.8rem 2rem;
   font-weight: 500;
   vertical-align: middle;
+  cursor: pointer;
 }
 
 .btn--primary {
   background-color: var(--color-primary);
   color: var(--color-white);
+}
+
+.input {
+  outline: 0;
+  border-radius: 2rem;
+  padding: 0.8rem 2rem;
+  border: 0;
+  width: 100%;
+  background-color: #d3d3d399;
 }
 
 .link {
@@ -95,12 +104,10 @@ h3 {
 
 @media screen and (min-width: 700px) {
   .section {
-
     padding-left: 5%;
     padding-right: 5%;
   }
 }
 
 @media screen and (min-width: 700px) {
-  
 }
